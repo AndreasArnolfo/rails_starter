@@ -1,24 +1,22 @@
-# README
+# Rails Starter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This projet is a simple dockerized Ruby on Rails app.
 
-Things you may want to cover:
+Build the app
+```
+docker-compose build
+```
+Launch the app
+```
+docker-compose up
+```
 
-* Ruby version
+About:
 
-* System dependencies
+* Ruby 2.5.3
 
-* Configuration
+* Rails 5.2.3
 
-* Database creation
+* Puma Webserver
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* SQLite Database
